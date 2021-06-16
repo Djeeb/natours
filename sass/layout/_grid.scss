@@ -39,6 +39,10 @@
     }
 
     .col-3-of-4 {
+<<<<<<< HEAD
         width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * (#{$gutter-horizontal}));
+=======
+        width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+>>>>>>> 0f797ec5792c0446bd8b59c14aa874c8a54d5eaa
     }
 }
